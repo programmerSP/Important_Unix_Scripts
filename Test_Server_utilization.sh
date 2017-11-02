@@ -1,5 +1,6 @@
 #!/bin/bash
-echo "Following are the Server Information Details For Dev : SD-2E06-2D06 : "
+export hostname="$HOSTNAME"
+echo "Following are the Server Information Details For Dev : $hostname : "
 echo $'\n'
 echo "Time :"
 date;
@@ -62,4 +63,4 @@ echo "vmstat:"
 vmstat 1 5
 echo $'\n'
 echo $'\n'
-echo " Above Information is Correct and Contains Specifications about Dev : SD-2E06-2D06 Server."| echo $"\n" | echo "This Script is written by ::>>  Soumen Patra "
+echo " Above Information is Correct and Contains Specifications about Dev : $hostname Server."| echo $"\n" | echo "This Script is written by Soumen and Can br reached @ ::>> patrasoumen100@gmail.com "
